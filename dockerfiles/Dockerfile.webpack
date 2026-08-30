@@ -1,5 +1,0 @@
-FROM node:24.16.0
-COPY package-lock.json /usr/src/app/checkouts/ext-theme/
-COPY package.json /usr/src/app/checkouts/ext-theme/
-WORKDIR /usr/src/app/checkouts/ext-theme
-RUN npm ci
